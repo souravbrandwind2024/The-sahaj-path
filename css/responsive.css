@@ -30,6 +30,12 @@
 }
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767px) {
+    .gallery-area{
+        padding: 35px 0;
+    }
+    .widget-gallery .gallery-btn i{
+        font-size: 14px;
+    }
     #contact-us .contact-form .form-area h2.section-heading{
         font-size: 18px;
         margin-bottom: 4px;
@@ -368,6 +374,13 @@
 }
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575px) {
+    .widget-gallery .gallery-btn i{
+        width: 43px;
+        height: 43px;
+    }
+    .widget-gallery .gallery-thumb img{
+        height: 180px;
+    }
     .total-visitors-area{
         margin-bottom: 11px;
     }
