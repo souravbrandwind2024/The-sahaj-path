@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>:: দ্য সহজ পাঠ ::</title>
+  <!-- favicon icon -->
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+  <link rel="apple-touch-icon" href="images/favicon.png">
+    <!-- bootstrap css -->
+    <link href="css/plugins/bootstrap.min.css" rel="stylesheet">
+    <!-- fontawesome css -->
+    <link href="css/plugins/fontawesome.min.css" rel="stylesheet">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Signika+Negative:wght@300..700&display=swap" rel="stylesheet">
+    <!--slick-css-->
+    <link href="css/plugins/slick.css" rel="stylesheet">
+    <link href="css/plugins/slick-theme.css" rel="stylesheet">
+    <!--owl-carousel-css-->
+    <link href="css/plugins/owl.carousel.min.css" rel="stylesheet">
+    <link href="css/plugins/owl.theme.default.min.css" rel="stylesheet">
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- perfect-scrollbar-css-->
+    <link rel="stylesheet" href="css/plugins/perfect-scrollbar.css">
+    <!-- animate css -->
+    <link href="css/plugins/animate.css" rel="stylesheet">
+    <!-- custom style css -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- responsive css -->
+    <link href="css/responsive.css" rel="stylesheet">
+    <!-- modernizr js -->
+    <script src="js/plugins/modernizr.js"></script>
+  <!--[if lt IE 9]>
+  <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a
+          href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+
+<!-- loader-area-start -->
+<div id="loading"></div>
+<!-- loader-area-end -->
+
+<!-- topbar-area-start -->
+<div class="header-top-bar">
+  <div class="top-bar-top bg-accent border-bottom">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-8 col-md-12">
+                  <ul class="news-info-list text-center--md">
+                      <li>
+                        <i class="fas fa-map-marker-alt"></i>West Bengal</li>
+                      <li>
+                        <i class="fas fa-calendar-alt"></i><span id="currentDateTime"></span></li>
+                      <li class="timing">
+                        <i class="far fa-clock"></i>Current time is:<p id="currentTime"></p></li>
+                      <li>
+                        <i class="fas fa-cloud"></i>39℃ Bolpur, West Bengal</li>
+                  </ul>
+              </div>
+              <div class="col-lg-4 d-none d-lg-block">
+                  <ul class="header-social">
+                      <li>
+                          <a href="https://www.facebook.com/thesahajpath/" data-placement="bottom" data-toggle="tooltip" title="Facebook" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                          </a>
+                      </li>
+                      <li>
+                        <a href="https://x.com/sahaj_the" data-placement="bottom" data-toggle="tooltip" title="Twitter" target="_blank">
+                          <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                      <li>
+                        <a href="https://bit.ly/3N6fXC6" data-placement="bottom" data-toggle="tooltip" title="Youtube" target="_blank">
+                          <i class="fab fa-youtube"></i>
+                        </a>
+                    </li>
+                    <li>
+                      <a href="https://www.instagram.com/thesahajpath/" data-placement="bottom" data-toggle="tooltip" title="Instagram" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                  </li>
+                  <li>
+                    <a href="#" data-placement="bottom" data-toggle="tooltip" title="Linkedin" target="_blank">
+                      <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+                    
+                      <li>
+                          <a href="#" data-placement="bottom" data-toggle="tooltip" title="Google-plus" target="_blank">
+                            <i class="fab fa-google-plus-g"></i>
+                          </a>
+                      </li>
+                    
+                      <li>
+                          <a href="#" data-placement="bottom" data-toggle="tooltip" title="Pinterest" target="_blank">
+                            <i class="fab fa-pinterest"></i>
+                          </a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+  <section class="topbar-area">
+    <a href="index.html">
+      <img class="main-logo" src="images/logo.png" loading="lazy" alt=""/>
+    </a>
+    <!-- <div id="date-time"></div> -->
+
+    <!-- <div class="small-add-banner">
+      <a href="#">
+        <img src="images/small-add.jpg" loading="lazy" alt=""/>
+      </a>
+    </div> -->
+   <div class="search-bar-area">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search here...." aria-label="Search">
+    <button class="btn my-2 my-sm-0" type="submit">Search</button>
+   </div>
+  </section>
+<!-- topbar-area-end -->
+
+<!-- menu-area-start -->
+  <header id="menu-area">
+    <div class="navigation-wrap start-header start-style">
+        <div class="container-fluid">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <!-- <a class="navbar-brand" href="index.html">
+                        <img src="images/logo.png" loading="lazy" alt=""/>
+                    </a> -->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto py-4 py-md-0">
+                            <li class="nav-item pl-4 pl-md-0 ml-0">
+                                <a class="nav-link" href="#">News</a>
+                            </li>
+                            <li class="nav-item pl-4 pl-md-0 ml-0">
+                              <a class="nav-link" href="#">Entertaiment</a>
+                          </li>
+                          <li class="nav-item pl-4 pl-md-0 ml-0">
+                            <a class="nav-link" href="#">Sports</a>
+                        </li>
+                        <li class="nav-item pl-4 pl-md-0 ml-0">
+                          <a class="nav-link" href="#">Business</a>
+                      </li>
+                      <li class="nav-item pl-4 pl-md-0 ml-0">
+                        <a class="nav-link" href="#">Health & Fitness</a>
+                    </li>
+                    <li class="nav-item pl-4 pl-md-0 ml-0">
+                      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                         aria-expanded="false"> Lifestyle<span><i class="fa fa-chevron-down"></i></span></a>
+                      <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Submenu 1</a></li>
+                          <li><a class="dropdown-item" href="#">Submenu 2</a></li>
+                          <li><a class="dropdown-item" href="#">Submenu 3</a></li>
+                      </ul>
+                  </li>
+                  <li class="nav-item pl-4 pl-md-0 ml-0">
+                    <a class="nav-link" href="#">Videos</a>
+                </li>
+                <li class="nav-item pl-4 pl-md-0 ml-0">
+                  <a class="nav-link" href="#">Competition</a>
+              </li>
+
+                            <li class="nav-item pl-4 pl-md-0 ml-0">
+                                <a class="nav-link" href="contact-us.html">Contact</a>
+                            </li>
+                        </ul>
+                        <div class="searchNlogin">
+                          <!-- <ul>
+                            <li class="search-icon"><i class="fa fa-search"></i></li>
+                            <li class="dropdown user-panel"><a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i></a>
+                              <div class="dropdown-menu top-user-section">
+                                <div class="top-user-form">
+                                  <form id="top-login" role="form">
+                                    <div class="input-group" id="top-login-username">
+                                      <span class="input-group-addon"><img src="images/icons/user-icon.png" loading="lazy" alt="" /></span>
+                                      <input type="text" class="form-control" placeholder="Username" required>
+                                    </div>
+                                    <div class="input-group" id="top-login-password">
+                                      <span class="input-group-addon"><img src="images/icons/password-icon.png" loading="lazy" alt="" /></span>
+                                      <input type="password" class="form-control" placeholder="Password" required>
+                                    </div>
+                                    <div>
+                                      <p class="reset-user">Forgot <a href="#">Password/Username?</a></p>
+                                      <button class="btn btn-danger" type="submit">Login</button>
+                                    </div>
+                                  </form>
+                                </div>
+                                <div class="create-account">
+                                  <a href="#">Create a New Account</a>
+                                </div>
+                              </div>
+                            </li>
+                          </ul> -->
+                          <div class="search">
+                            <form role="form">
+                              <input type="text" class="search-form" autocomplete="off" placeholder="Search here">
+                            </form>
+                          </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- menu-area-end -->
+
+
+<!-- breadcrumb-area-start -->
+<section class="breadcrumbs-area">
+  <div class="container">
+    <div class="breadcrumbs-content">
+      <h1>Contact Us</h1>
+      <ul>
+          <li>
+              <a href="index.html">Home</a> -</li>
+          <li>Contact Us</li>
+      </ul>
+  </div>
+  </div>
+</section>
+<!-- breadcrumb-area-end -->
+
+<!-- Contact-us-area-start -->
+<section id="contact-us" class="section">
+    <div class="container">
+        <div class="contact-details">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="contact-detail-box">
+                        <img src="images/phone-call-icon.png" loading="lazy" class="img-fluid" alt="">
+                        <h4>Call us:</h4>
+                        <a href="#">1234-1234567 | +91 11223344</a>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="contact-detail-box">
+                        <img src="images/mail.png" loading="lazy" class="img-fluid" alt="">
+                        <h4>Email us:</h4>
+                        <a href="#">thesahajpath@gmail.com</a>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="contact-detail-box">
+                      <img src="images/globe-icon.png" loading="lazy" class="img-fluid" alt="">
+                      <h4>Official Website URL:</h4>
+                      <a href="https://thesahajpath.com/" target="_blank">https://thesahajpath.com/</a>
+                  </div>
+              </div>
+                <div class="col-lg-3">
+                    <div class="contact-detail-box">
+                        <img src="images/office-building.png" loading="lazy" class="img-fluid" alt="">
+                        <h4>Our Office address is:</h4>
+                        <p>Bolpur Webel IT Park, Bolpur Rd, Shibpur, West Bengal 731204</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact-form">
+            <div class="row no-gutters">
+                <div class="col-lg-7 form-area">
+                    <h2 class="section-heading">Get in Touch</h2>
+                    <form action="#">
+                        <div class="row no-gutters">
+                            <div class="col-lg-4 pr-lg-2">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Name">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 px-lg-1">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Email ID">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 pl-lg-2">
+                                <div class="form-group">
+                                    <input type="number" class="form-control" placeholder="Phone number">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Message" rows="6"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-12 text-center">
+                                <button class="btn btn-submit">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-5 map-area">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.9952882239386!2d87.67758017511154!3d23.64033977874561!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f9db2e6353a35b%3A0x8e7ec3286be4bbc7!2sWebel%20IT%20park!5e0!3m2!1sen!2sin!4v1714380666588!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        </div>
+    </div>
+  </section>
+
+<!-- Contact-us-area-end -->
+
+<!-- footer-area-start -->
+<footer>
+  <div class="footer-area-top">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                  <div class="footer-box">
+                      <h2 class="title-bold-light title-bar-left text-uppercase">Most Viewed Posts</h2>
+                      <ul class="most-view-post">
+                          <li>
+                              <div class="media">
+                                  <a href="#">
+                                      <img src="images/footer-post-1.jpg" loading="lazy" alt="post" class="img-fluid">
+                                  </a>
+                                  <div class="media-body">
+                                      <h3 class="title-medium-light footer size-md mb-10">
+                                          <a href="#">এখানে হেডিং এর জন্য কিছু কনটেন্ট যোগ করুন </a>
+                                      </h3>
+                                      <div class="post-date-light">
+                                          <ul>
+                                              <li>
+                                                  <span>
+                                                    <i class="far fa-calendar-alt"></i>
+                                                  </span>February 11, 2024</li>
+                                          </ul>
+                                      </div>
+                                  </div>
+                              </div>
+                          </li>
+                          <li>
+                              <div class="media">
+                                  <a href="#">
+                                      <img src="images/footer-post-2.jpg" alt="post" class="img-fluid">
+                                  </a>
+                                  <div class="media-body">
+                                      <h3 class="title-medium-light footer size-md mb-10">
+                                          <a href="#">এখানে হেডিং এর জন্য কিছু কনটেন্ট যোগ করুন </a>
+                                      </h3>
+                                      <div class="post-date-light">
+                                          <ul>
+                                              <li>
+                                                  <span>
+                                                    <i class="far fa-calendar-alt"></i>
+                                                  </span>March 22, 2024</li>
+                                          </ul>
+                                      </div>
+                                  </div>
+                              </div>
+                          </li>
+                          <li>
+                              <div class="media">
+                                  <a href="#">
+                                      <img src="images/footer-post-3.jpg" alt="post" class="img-fluid">
+                                  </a>
+                                  <div class="media-body">
+                                      <h3 class="title-medium-light footer size-md mb-10">
+                                          <a href="#">এখানে হেডিং এর জন্য কিছু কনটেন্ট যোগ করুন </a>
+                                      </h3>
+                                      <div class="post-date-light">
+                                          <ul>
+                                              <li>
+                                                  <span>
+                                                    <i class="far fa-calendar-alt"></i>
+                                                  </span>April 16, 2024</li>
+                                          </ul>
+                                      </div>
+                                  </div>
+                              </div>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-lg-3 col-md-6 col-sm-12">
+                  <div class="footer-box">
+                      <h2 class="title-bold-light title-bar-left text-uppercase">Popular Categories</h2>
+                      <ul class="popular-categories">
+                          <li>
+                              <a href="#">Gadgets
+                                  <span>15</span>
+                              </a>
+                          </li>
+                          <li>
+                              <a href="#">Architecture
+                                  <span>10</span>
+                              </a>
+                          </li>
+                          <li>
+                              <a href="#">New look 2017
+                                  <span>14</span>
+                              </a>
+                          </li>
+                          <li>
+                              <a href="#">Reviews
+                                  <span>13</span>
+                              </a>
+                          </li>
+                          <li>
+                              <a href="#">Mobile and Phones
+                                  <span>19</span>
+                              </a>
+                          </li>
+                          <li>
+                              <a href="#">Recipes
+                                  <span>26</span>
+                              </a>
+                          </li>
+                          <li>
+                              <a href="#">Decorating
+                                  <span>21</span>
+                              </a>
+                          </li>
+                          <li>
+                              <a href="#">IStreet fashion
+                                  <span>09</span>
+                              </a>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-lg-5 col-md-12 col-sm-12">
+                  <div class="footer-box">
+                      <h2 class="title-bold-light title-bar-left text-uppercase">Post Gallery</h2>
+                      <ul class="post-gallery shine-hover ">
+                          <li>
+                              <a href="#">
+                                  <figure>
+                                      <img src="images/post-gallery-1.jpg" loading="lazy" alt="post" class="img-fluid">
+                                  </figure>
+                              </a>
+                          </li>
+                          <li>
+                              <a href="#">
+                                  <figure>
+                                    <img src="images/post-gallery-2.jpg" loading="lazy" alt="post" class="img-fluid">
+                                  </figure>
+                              </a>
+                          </li>
+                          <li>
+                              <a href="#">
+                                  <figure>
+                                    <img src="images/post-gallery-3.jpg" loading="lazy" alt="post" class="img-fluid">
+                                  </figure>
+                              </a>
+                          </li>
+                          <li>
+                              <a href="#">
+                                  <figure>
+                                    <img src="images/post-gallery-4.jpg" loading="lazy" alt="post" class="img-fluid">
+                                  </figure>
+                              </a>
+                          </li>
+                          <li>
+                              <a href="#">
+                                  <figure>
+                                    <img src="images/post-gallery-5.jpg" loading="lazy" alt="post" class="img-fluid">
+                                  </figure>
+                              </a>
+                          </li>
+                          <li>
+                              <a href="#">
+                                  <figure>
+                                    <img src="images/post-gallery-6.jpg" loading="lazy" alt="post" class="img-fluid">
+                                  </figure>
+                              </a>
+                          </li>
+                          <li>
+                              <a href="#">
+                                  <figure>
+                                    <img src="images/post-gallery-7.jpg" loading="lazy" alt="post" class="img-fluid">
+                                  </figure>
+                              </a>
+                          </li>
+                          <li>
+                              <a href="#">
+                                  <figure>
+                                    <img src="images/post-gallery-8.jpg" loading="lazy" alt="post" class="img-fluid">
+                                  </figure>
+                              </a>
+                          </li>
+                          <li>
+                              <a href="#">
+                                  <figure>
+                                    <img src="images/post-gallery-9.jpg" loading="lazy" alt="post" class="img-fluid">
+                                  </figure>
+                              </a>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="footer-area-bottom">
+      <div class="container">
+          <div class="row">
+              <div class="col-12 text-center">
+                  <a href="index.html" class="footer-logo img-fluid">
+                      <img src="images/logo.png" loading="lazy" alt="logo" class="img-fluid">
+                  </a>
+                  <ul class="footer-social">
+                      <li>
+                          <a href="https://www.facebook.com/thesahajpath/" data-placement="bottom" data-toggle="tooltip" title="Facebook" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                          </a>
+                      </li>
+                      <li>
+                          <a href="https://x.com/sahaj_the" data-placement="bottom" data-toggle="tooltip" title="Twitter" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                          </a>
+                      </li>
+                      <li>
+                        <a href="https://bit.ly/3N6fXC6" data-placement="bottom" data-toggle="tooltip" title="Youtube" target="_blank">
+                          <i class="fab fa-youtube"></i>
+                        </a>
+                    </li>
+                    <li>
+                      <a href="https://www.instagram.com/thesahajpath/" data-placement="bottom" data-toggle="tooltip" title="Instagram" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                  </li>
+                  <li>
+                    <a href="#" data-placement="bottom" data-toggle="tooltip" title="Linkedin" target="_blank">
+                      <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+                      <li>
+                          <a href="#" data-placement="bottom" data-toggle="tooltip" title="Google-plus" target="_blank">
+                            <i class="fab fa-google-plus-g"></i>
+                          </a>
+                      </li>
+                      <li>
+                          <a href="#" data-placement="bottom" data-toggle="tooltip" title="Pinterest" target="_blank">
+                            <i class="fab fa-pinterest"></i>
+                          </a>
+                      </li>
+                  </ul>
+                  <div class="total-visitors-area">
+                    <h3>Total visitors : </h3>
+                    <span class="number"> 4896</span>
+                  </div>
+                  <p> Copyright © <span class="year"></span> The Sahaj Path News / All Rights Reserved / Designed and Developed by <a href="https://www.brandwind.in/" target="_blank">brandwind.in</a></p>
+              </div>
+          </div>
+      </div>
+  </div>
+</footer>
+<!-- footer-area-end -->
+
+<!-- scroll-to-top-area-start -->
+<section id="scroll-top">
+  <div id="stop" class="scrollTop">
+      <span><a href="#">
+        <i class="fas fa-arrow-up"></i>
+      </a></span>
+  </div>
+</section>
+<!-- scroll-to-top-area-end -->
+
+
+<script src="js/plugins/jquery-3.4.1.min.js"></script>
+<!-- popper js -->
+<script src="js/plugins/popper.min.js"></script>
+<!-- bootstrap js -->
+<script src="js/plugins/bootstrap.min.js"></script>
+<!--owl-carousel-js-->
+<script src="js/plugins/owl.carousel.min.js"></script>
+<!-- swiper js -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<!--slick-js-->
+<script src="js/plugins/slick.min.js"></script>
+<!-- perfect-scrollbar-js-->
+<script src="js/plugins/perfect-scrollbar.js"></script>
+<!-- Counter-js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+<!-- waypoints-js -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+<!--moment-js-->
+<script src="js/plugins/moment.min.js"></script>
+<!-- main js -->
+<script src="js/main.js"></script>
+<script>
+    var mySwiper = new Swiper('.mySwiper', {
+    direction: 'horizontal',
+    loop: true,
+    centeredSlides: true,
+    
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+      dynamicBullets: true,
+    },
+
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false,
+    },
+
+    speed: 1000,
+    effect: 'fade',
+    fadeEffect: {
+          crossFade: true,
+     },
+  });
+
+
+    // var swiper = new Swiper(".mySwiper", {
+    //   speed: 600,
+    //   parallax: true,
+    //   pagination: {
+    //     el: ".swiper-pagination",
+    //     clickable: true,
+    //     dynamicBullets: true,
+    //   },
+    //   navigation: {
+    //     nextEl: ".swiper-button-next",
+    //     prevEl: ".swiper-button-prev",
+    //   },
+    // });
+
+
+// header-topbar-current-date-area-start //
+function getCurrentDateTime() {
+    var currentDateTime = new Date();
+    
+    var day = currentDateTime.getDate();
+    var month = currentDateTime.getMonth() + 1;
+    var year = currentDateTime.getFullYear();
+    var dayOfWeek = currentDateTime.getDay();
+    var daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+    var formattedDate = year + "-" + (month < 10 ? '0' + month : month) + "-" + (day < 10 ? '0' + day : day);
+    var formattedDayOfWeek = daysOfWeek[dayOfWeek];
+    return {date: formattedDate, dayOfWeek: formattedDayOfWeek};
+}
+
+var currentDateTime = getCurrentDateTime();
+document.getElementById("currentDateTime").innerHTML = currentDateTime.dayOfWeek + ", " + currentDateTime.date;
+// header-topbar-current-date-area-end //
+
+
+
+function getCurrentTime() {
+    var currentTime = new Date();
+    
+    // Extracting individual time components
+    var hours = currentTime.getHours();
+    var minutes = currentTime.getMinutes();
+    var seconds = currentTime.getSeconds();
+    
+    // Format the time as needed (e.g., HH:MM:SS)
+    var formattedTime = (hours < 10 ? '0' + hours : hours) + ":" + (minutes < 10 ? '0' + minutes : minutes) + ":" + (seconds < 10 ? '0' + seconds : seconds);
+    
+    return formattedTime;
+}
+
+// Update the HTML element with the current time
+document.getElementById("currentTime").innerHTML = getCurrentTime();
+
+
+
+</script>
+</body>
+</html>
