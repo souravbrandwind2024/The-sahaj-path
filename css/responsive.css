@@ -374,6 +374,10 @@
 }
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575px) {
+    footer .footer-box ul.most-view-post li .media img{
+        width: 91px;
+        height: 60px;
+    }
     .widget-gallery .gallery-btn i{
         width: 43px;
         height: 43px;

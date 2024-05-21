@@ -726,6 +726,9 @@ ul.header-social li a i {
 .img-overlay-70 {
   position: relative;
 }
+.img-overlay-70:hover {
+  overflow: hidden;
+}
 
 .img-scale-animate {
   overflow: hidden;
@@ -750,20 +753,13 @@ ul.header-social li a i {
 
 .img-scale-animate img {
   width: 100%;
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
   transform: scale(1);
-  -webkit-transition: all 1.5s ease-out;
-  -moz-transition: all 1.5s ease-out;
-  -ms-transition: all 1.5s ease-out;
-  -o-transition: all 1.5s ease-out;
-  transition: all 1.5s ease-out
+  transition: all 1.5s ease-out;
 }
 
 .img-scale-animate:hover img {
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1)
+  transform: scale(1.1);
+  overflow: hidden;
 }
 
 .mask-content-lg {
@@ -1049,6 +1045,9 @@ footer .footer-box ul.most-view-post li:last-child {
 footer .footer-box ul.most-view-post li .media img {
   margin-top: 5px;
   border-radius: 5px;
+  width: 100px;
+  height: 73px;
+  object-fit: cover;
 }
 
 footer .footer-box ul.most-view-post li .media>.pull-left {
@@ -1356,7 +1355,7 @@ footer .footer-area-bottom p a {
   padding: 11px 19px 13px;
   color: #fff;
   background-color: #d53736;
-  width: 27%;
+  width: 33%;
 }
 
 .marquee-title h2 {
@@ -1521,6 +1520,9 @@ footer .footer-area-bottom p a {
   color: #ffffff;
   font-weight: 500;
   background-color: #d53736;
+}
+.right-tab-part .nav-tabs .nav-link.active::before{
+
 }
 
 .right-tab-part .nav-tabs .nav-link:hover {
@@ -2181,7 +2183,7 @@ ul.stay-connected-light li a img.instagram-pic{
 .video-modal-bottom .modal .modal-dialog .modal-content .modal-header .close svg {
   stroke: #ffffff;
   width: 17px;
-  height: 18px;
+  height: 26px;
 }
 .video-modal-bottom .modal .modal-dialog .modal-content .modal-body {
   padding: 15px 15px 16px 15px;
@@ -2934,4 +2936,8 @@ ul.sidebar-tags li a:hover {
   padding: 0px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 10px 0px;
   position: fixed !important;
+}
+.international-stories .inter-image{
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
 }
