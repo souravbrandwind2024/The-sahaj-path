@@ -1170,6 +1170,13 @@ footer .footer-box ul.post-gallery figure:hover::before {
   -webkit-animation: shine .75s;
   animation: shine .75s;
 }
+footer .footer-box ul.most-view-post li .media .media-body h3.title-medium-light{
+  display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 
 @keyframes shine {
   100% {
@@ -2940,4 +2947,33 @@ ul.sidebar-tags li a:hover {
 .international-stories .inter-image{
   border-radius: 10px 10px 0 0;
   overflow: hidden;
+}
+
+.single-news-area .category-wrap{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.single-news-area .category-wrap .category-info{
+  width: 350px;
+  position: relative;
+  margin-bottom: 35px;
+}
+.single-news-area .category-wrap .category-info .item-shadow-gray{
+  padding: 14px;
+}
+.single-news-area .category-wrap .category-info .item-shadow-gray p{
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 10;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: justify;
+}
+.three-wrapper .mask-content-sm .post-date-light ul li span i.man{
+  font-size: 11px;
+    margin-left: 3px;
 }

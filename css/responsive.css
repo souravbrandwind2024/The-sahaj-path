@@ -30,6 +30,10 @@
 }
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767px) {
+    .single-news-area .category-wrap .category-info .item-shadow-gray p{
+        font-size: 14px;
+        line-height: 23px;
+    }
     .gallery-area{
         padding: 35px 0;
     }
